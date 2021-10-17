@@ -1,0 +1,6 @@
+#Deliverable 1 Challenge 
+#Use the library() function to load the dplyr package.
+library(dplyr)
+# Import and read in the MechaCar_mpg.csv file as a dataframe
+library(tidyverse)
+mecha_mpg <- read.csv(file='./Resource/MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
